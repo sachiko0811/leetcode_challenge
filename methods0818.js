@@ -14,3 +14,6 @@ let arr2 = [1,2,3,4,5,6,7,8,9,10];
 let res2 = arr2.includes(4, 4); // false
 console.log(res2); // true
 
+/* .map() */
+let arr3 = [1,2,3,4,5,6,7,8,9];
+arr3.map(num => console.log(num));
